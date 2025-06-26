@@ -567,14 +567,32 @@ left: 77px;
     text-align: left;
   }
 
+  /* .icon-box {
+    width: 40px;
+    height: 40px;
+  } */
+
   .icon-box {
     width: 40px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    flex-shrink: 0;
   }
+  
 
-  .icon-box img {
-    width: 24px;
-  }
+    /* width: 18px; */
+    .icon-box img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      position: static;
+      filter: invert(79%) sepia(95%) saturate(373%) hue-rotate(5deg) brightness(105%) contrast(98%);
+    }
+    
+  
 
   .content {
     padding: 15px;
@@ -623,9 +641,22 @@ left: 77px;
   }
 
   .links ul li {
-    left: 0;
-    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
   }
+  
+
+  .links img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: invert(1);
+    display: block;
+  }
+  
 }
 
 
