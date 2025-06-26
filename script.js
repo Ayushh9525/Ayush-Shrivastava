@@ -65,8 +65,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-let action = document.getElementById("ayush");
-
-action.addEventListener("contextmenu", function show() {
-  
-})
