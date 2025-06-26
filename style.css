@@ -610,6 +610,10 @@ left: 77px;
   .resume ul {
     justify-content: center;
     gap: 30px;
+    /* margin-bottom: 35px; */
+  }
+  .about{
+    margin-top: 50px;
   }
 
   .cards {
