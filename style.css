@@ -556,6 +556,7 @@ left: 77px;
   }
 
   .contacts-list {
+    margin-top: 15px;
     gap: 16px;
     position: static;
     padding: 10px 0;
@@ -650,6 +651,8 @@ left: 77px;
   
 
   .links img {
+  position: relative;
+  right: 50px;
     width: 20px;
     height: 20px;
     object-fit: contain;
