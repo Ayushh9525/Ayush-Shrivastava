@@ -1,1 +1,1 @@
-This is my portfolio.
+This is a responsive portfolio website built using HTML, CSS, and JavaScript. Designed to work smoothly across all devices, this site reflects my passion for full stack development and modern web design.
